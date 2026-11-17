@@ -1,0 +1,14 @@
+.venv/
+.venv-1/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+.delivery/
+reports/github_source.zip
+data/raw/
+data/selected/
+data/processed/

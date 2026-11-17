@@ -1,0 +1,11 @@
+# Direct dependency versions observed in .venv-1; not a complete lockfile.
+streamlit==1.61.1
+pandas==3.0.3
+numpy==2.5.1
+scikit-learn==1.9.0
+lightgbm==4.7.0
+xgboost==3.4.0
+shap==0.52.0
+matplotlib==3.11.0
+joblib==1.5.3
+openpyxl==3.1.5

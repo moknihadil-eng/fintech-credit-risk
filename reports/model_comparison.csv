@@ -1,0 +1,10 @@
+model,variant,validation_roc_auc,cv_roc_auc,source,notes
+Logistic Regression,baseline without PCA,0.7704765685,,notebooks/10_modeling.ipynb,Optimized result not recorded in notebook 12
+Decision Tree,optimized,0.7042,0.7055128021,notebooks/decision_tree.ipynb,RandomizedSearchCV; 3 folds
+Random Forest,baseline,0.7669512314,,notebooks/13_RandomForest.ipynb,
+Random Forest,optimized,0.7664,0.7597416132,notebooks/13_RandomForest.ipynb,RandomizedSearchCV; 3 folds
+XGBoost,baseline,0.7795533128,,notebooks/14_XGBoost.ipynb,
+XGBoost,optimized,0.7769,0.772517025,notebooks/14_XGBoost.ipynb,Saved validation result
+LightGBM,baseline,0.7817,,notebooks/15_LightGbm.ipynb,
+LightGBM,search optimized,0.7819,0.7741,notebooks/15_LightGbm.ipynb,RandomizedSearchCV; 3 folds
+LightGBM,final scale_pos_weight,0.7833093104,,data/processed/model_final_evaluation.csv,Final model; threshold 0.68; not the search CV score

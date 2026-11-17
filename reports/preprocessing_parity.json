@@ -1,0 +1,12 @@
+{
+  "train": {
+    "rows": 246008,
+    "features": 240,
+    "parity": true
+  },
+  "validation": {
+    "rows": 61503,
+    "features": 240,
+    "parity": true
+  }
+}

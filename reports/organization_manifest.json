@@ -1,0 +1,14 @@
+[
+  {
+    "from": "docs\\Classeur1.xlsx",
+    "to": "docs\\archive\\Classeur1.xlsx"
+  },
+  {
+    "from": "docs\\Classeur2.xlsx",
+    "to": "docs\\archive\\Classeur2.xlsx"
+  },
+  {
+    "from": "reports\\pipeline_sources.txt",
+    "to": "reports\\archive\\pipeline_sources.txt"
+  }
+]
